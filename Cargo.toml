@@ -1,15 +1,18 @@
 [package]
 name = "atdir"
-version = "0.0.0"
+version = "0.0.1-wip"
 authors = ["Christian Thäter <ct@pipapo.org>"]
 edition = "2018"
 description = "Faithful wrapper for libc openat() and other *at() functions"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/cehteh/atdir.git"
 keywords = ["libc", "fs"]
+categories = ["os::unix-apis"]
 
 [dependencies]
 libc = "0.2"
+log = "0.4"
+cbuffer = "0.2.0-pre"
 
 [badges]
 maintenance = { status = "actively-developed" }
